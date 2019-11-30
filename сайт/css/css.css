@@ -1,9 +1,10 @@
 body{
-	background: #dcdcdc
+	background: #dcdcdc;
+	font-family: 'Amatic SC', cursive;
 }
 
 .bmv{
-	background: #878787;
+	background: #C0C0C0;
 	padding-top: 15px;
 }
 
