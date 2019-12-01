@@ -6,40 +6,55 @@
 	"fields": [
 		{
 			"type": "text",
-			"name": "Your Name",
-			"placeholder": "Type your name",
+			"name": "Ваше имя",
+			"placeholder": "Введите Ваше имя",
 			"required": true,
 			"sms": true
 		},
 		{
 			"type": "email",
-			"name": "Your E-mail",
-			"placeholder": "Type your e-mail",
+			"name": "Ваш E-mail",
+			"placeholder": "Введите Ваш E-mail",
 			"required": false,
 			"sms": true
 		},
 		{
 			"type": "tel",
 			"mask": "(999) 999-9999",
-			"name": "Phone Number",
-			"required": false,
-			"sms": true
-		},
-		{
-			"type": "textarea",
-			"name": "Comments",
-			"placeholder": "Comments, questions...",
-			"required": false,
+			"name": "Ваш телефон",
+			"required": true,
 			"sms": true
 		},
 		{
 			"type": "select",
-			"name": "Question",
+			"name": "Необходимая услуга",
 			"sms": true,
+			"required": true,
 			"options": [
-				"Get details",
-				"Make an order"
+				"Демонтаж",
+				"Монтаж унитаза, биде, писсуара",
+				"Душевые кабины",
+				"Монтаж. Ванны и душивые колонки",
+				"Монтаж раковин, моек - без смесителей",
+				"Смесители",
+				"Полотенцесушители",
+				"Фильтры для отчистки воды",
+				"Монтаж счетчиков воды и приборов с систему водоснобжения",
+				"Монтаж и подключение бытовой техники",
+				"Монтаж радиатров отопления и конвекторов",
+				"Замена труб и стояков. Монтаж.",
+				"Нарезка резьбы на трубы",
+				"Штробление по сантехнические трубы",
+				"Ремонтсантехнической коммуникаций, навеска акксессуаров",
+				"Сантехнические работы. Коэффициенты"
 			]
+		},
+		{
+			"type": "textarea",
+			"name": "Заявка",
+			"placeholder": "Введите заявку",
+			"required": true,
+			"sms": true
 		},
 		{
 			"type": "checkbox",
