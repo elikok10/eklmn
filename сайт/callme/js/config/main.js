@@ -27,10 +27,19 @@
 		},
 		{
 			"type": "textarea",
-			"name": "Заявка",
-			"placeholder": "Ваша заявка...",
+			"name": "Comments",
+			"placeholder": "Comments, questions...",
 			"required": false,
 			"sms": true
+		},
+		{
+			"type": "select",
+			"name": "Question",
+			"sms": true,
+			"options": [
+				"Get details",
+				"Make an order"
+			]
 		},
 		{
 			"type": "checkbox",
