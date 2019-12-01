@@ -21,16 +21,15 @@
 		{
 			"type": "tel",
 			"mask": "(999) 999-9999",
-			"name": "Phone",
-			"placeholder": 'Ваш телефон',
-			"required": true,
+			"name": "Phone Number",
+			"required": false,
 			"sms": true
 		},
 		{
 			"type": "textarea",
-			"name": "Order",
-			"placeholder": "Ваша заявка",
-			"required": true,
+			"name": "Заявка",
+			"placeholder": "Ваша заявка...",
+			"required": false,
 			"sms": true
 		},
 		{
