@@ -16,3 +16,18 @@ body{
 .audi{
 	padding-bottom: 15px ;
 }
+
+/* Стили заявки */
+
+
+.main-form{
+	padding-top: 25px;
+}
+
+.main-form__email{
+	width: 600px;
+}
+
+.main-form__text{
+	width: 600px;
+}
