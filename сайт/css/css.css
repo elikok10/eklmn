@@ -115,3 +115,33 @@ body{
 	max-width: 750px;
 	margin: auto;
 }
+
+/* Контакты */
+
+.contacts{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	text-align: center;
+
+}
+
+.contacts__text{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.contacts__right{
+	margin-right: 40px;
+	
+}
+
+/* ------------ */
+
+/* Футер */
+
+footer{
+	background: #a0ced9;
+	height: 100px;
+}
+
+/* ----------- */
