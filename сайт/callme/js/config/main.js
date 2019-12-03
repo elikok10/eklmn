@@ -1,7 +1,7 @@
 {
 	"button": {
 		"show": true,
-		"text": "Request a callback"
+		"text": "Оставьте заявку"
 	},
 	"fields": [
 		{
@@ -15,39 +15,8 @@
 			"type": "email",
 			"name": "Ваш E-mail",
 			"placeholder": "Введите Ваш E-mail",
-			"required": false,
-			"sms": true
-		},
-		{
-			"type": "tel",
-			"mask": "(999) 999-9999",
-			"name": "Ваш телефон",
 			"required": true,
 			"sms": true
-		},
-		{
-			"type": "select",
-			"name": "Необходимая услуга",
-			"sms": true,
-			"required": true,
-			"options": [
-				"Демонтаж",
-				"Монтаж унитаза, биде, писсуара",
-				"Душевые кабины",
-				"Монтаж. Ванны и душивые колонки",
-				"Монтаж раковин, моек - без смесителей",
-				"Смесители",
-				"Полотенцесушители",
-				"Фильтры для отчистки воды",
-				"Монтаж счетчиков воды и приборов с систему водоснобжения",
-				"Монтаж и подключение бытовой техники",
-				"Монтаж радиатров отопления и конвекторов",
-				"Замена труб и стояков. Монтаж.",
-				"Нарезка резьбы на трубы",
-				"Штробление по сантехнические трубы",
-				"Ремонтсантехнической коммуникаций, навеска акксессуаров",
-				"Сантехнические работы. Коэффициенты"
-			]
 		},
 		{
 			"type": "textarea",
@@ -55,21 +24,14 @@
 			"placeholder": "Введите заявку",
 			"required": true,
 			"sms": true
-		},
-		{
-			"type": "checkbox",
-			"name": "Gift case",
-			"caption": "You need to <a href='#'>read the rules</a> and check this",
-			"required": true,
-			"sms": true
 		}
 	],
 	"form": {
 		"template": "default",
-		"title": "Request a callback",
-		"button": "Call me",
+		"title": "Оставьте заявку",
+		"button": "Отправить",
 		"align": "center",
-		"welcome": "Fill in the form and we'll call you back as soon as possible"
+		"welcome": "Вы можете оставить заявку на мою почту"
 	},
 	"alerts": {
 		"yes": "Yes",
@@ -77,8 +39,8 @@
 		"process": "Sending request...",
 		"success": "Your request was successfully sent",
 		"fails": {
-			"required": "Please fill in all required fields",
-			"sent": "Previous message was sent less than a minute ago"
+			"required": "Заполните все поля",
+			"sent": "Предыдущее сообщение было отправлено меньше минуты назад"
 		}
 	},
 	"captcha": {
