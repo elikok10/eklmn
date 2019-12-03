@@ -1,10 +1,33 @@
+/* Спецификации */
+
 body{
-	background: #dcdcdc;
+	background: #c0daeb;
 	font-family: 'Amatic SC', cursive;
 }
 
+.margin-center{
+	margin: auto;
+}
+
+/*------------------*/
+
+/* Заголовок */
+
+.title{
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+/*------------------*/
+
+.yslugi__img{
+	height: 180px;
+	width: auto;
+}
+
 .bmv{
-	background: #C0C0C0;
+	background: #a0ced9;
 	padding-top: 15px;
 }
 
@@ -17,9 +40,23 @@ body{
 	padding-bottom: 15px ;
 }
 
-.margin-center{
-	margin: auto;
+/* Отзывы */
+
+.comm{
+	background: #a0ced9;
+	padding-top: 25px;
+	padding-bottom: 50px;
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
 }
+
+.comm__title{
+	padding-bottom: 15px;
+}
+
+/*------------------*/
+
 /* Стили заявки */
 
 
