@@ -58,10 +58,5 @@
 		"linkAttribute": "Link attribute",
 		"smtp": false
 	},
-	"animationSpeed": 150,
-	"sms": {
-		"send": false,
-		"captions": true,
-		"cut": true
-	}
+	"animationSpeed": 150
 }
