@@ -24,6 +24,9 @@ body{
 	padding-top: 25px;
 	padding-bottom: 25px;
 }
+thead{
+	background: #2673a3;
+}
 
 /*------------------*/
 
