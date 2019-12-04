@@ -42,6 +42,9 @@ body{
 	padding-left: 10px;
 	color: brown;
 }
+thead{
+	background: #2673a3;
+}
 
 /*------------------*/
 
