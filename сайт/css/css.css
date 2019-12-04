@@ -11,7 +11,7 @@ a:hover{
 }
 
 body{
-	background: #c0daeb;
+	background: azure; 
 	font-family: 'Amatic SC', cursive;
 }
 
@@ -24,6 +24,7 @@ body{
 .title{
 	padding-top: 8px;
 	padding-bottom: 15px;
+	margin: auto;
 }
 
 .title-text{
