@@ -57,7 +57,7 @@ thead{
 }
 
 .bmv{
-	background: hsl(258, 94%, 12%);;
+	background: linear-gradient(45deg, #000, #3A424F);
 	padding-top: 15px;
 	color: #fff;
 }
@@ -157,7 +157,7 @@ thead{
 /* Футер */
 
 footer{
-	background: hsl(258, 94%, 12%);
+	background: linear-gradient(45deg, #000, #3A424F);
 	height: 100px;
 }
 
