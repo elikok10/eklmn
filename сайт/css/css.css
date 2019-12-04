@@ -19,17 +19,35 @@ body{
 	margin: auto;
 }
 
+/* header */
+
 .title{
+	padding-top: 8px;
+	padding-bottom: 15px;
+}
+
+.title-text{
 	text-align: center;
-	padding-top: 25px;
-	padding-bottom: 25px;
+}
+
+.title-icon{
+	height: 80px;
+	width: 80px;
+}
+
+.title-block-tel{
+}
+
+.title-tel{
+	padding-left: 10px;
+	color: brown;
 }
 
 /*------------------*/
 
 /* Главная */
 
-.title-img{
+.main-img{
 	background: url(../img/main.jpg) round no-repeat;
 	background-size: cover;
 	min-height: 560px !important;
@@ -54,7 +72,7 @@ body{
 }
 
 .bmv{
-	background: linear-gradient(45deg, #000, #3A424F);
+	background: #000;
 	padding-top: 15px;
 	color: #fff;
 }
