@@ -19,23 +19,29 @@ body{
 	margin: auto;
 }
 
+.title{
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
 /*------------------*/
+
+/* Главная */
+
+.title-img{
+	background: url(../img/main.jpg) round no-repeat;
+	background-size: cover;
+	min-height: 560px !important;
+}
+
+/* ----------------- */
 
 /* О нас */
 
 .about{
 	padding-top: 40px;
 	padding-bottom: 40px;
-}
-
-/*------------------*/
-
-/* Заголовок */
-
-.title{
-	text-align: center;
-	padding-top: 25px;
-	padding-bottom: 25px;
 }
 
 /*------------------*/
@@ -48,8 +54,9 @@ body{
 }
 
 .bmv{
-	background: #a0ced9;
+	background: hsl(258, 94%, 12%);;
 	padding-top: 15px;
+	color: #fff;
 }
 
 .xsw{
@@ -122,3 +129,33 @@ body{
 	max-width: 750px;
 	margin: auto;
 }
+
+/* Контакты */
+
+.contacts{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	text-align: center;
+
+}
+
+.contacts__text{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.contacts__right{
+	margin-right: 40px;
+	
+}
+
+/* ------------ */
+
+/* Футер */
+
+footer{
+	background: hsl(258, 94%, 12%);
+	height: 100px;
+}
+
+/* ----------- */
