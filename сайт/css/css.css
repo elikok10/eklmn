@@ -35,9 +35,6 @@ body{
 	width: 80px;
 }
 
-.title-block-tel{
-}
-
 .title-tel{
 	padding-left: 10px;
 	color: brown;
@@ -77,6 +74,10 @@ thead{
 .bmv{
 	background: #000;
 	padding-top: 15px;
+	color: #fff;
+}
+
+.bmv a{
 	color: #fff;
 }
 
