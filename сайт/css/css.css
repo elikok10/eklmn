@@ -1,10 +1,54 @@
+/* Спецификации */
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	text-decoration: none;
+	color: black;
+}
+
 body{
-	background: #dcdcdc;
+	background: #c0daeb;
 	font-family: 'Amatic SC', cursive;
 }
 
+.margin-center{
+	margin: auto;
+}
+
+/*------------------*/
+
+/* О нас */
+
+.about{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+/*------------------*/
+
+/* Заголовок */
+
+.title{
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+/*------------------*/
+
+/* Услуги */
+
+.yslugi__img{
+	height: 180px;
+	width: auto;
+}
+
 .bmv{
-	background: #C0C0C0;
+	background: #a0ced9;
 	padding-top: 15px;
 }
 
@@ -17,21 +61,64 @@ body{
 	padding-bottom: 15px ;
 }
 
+
 .margin-center{
 	margin: auto;
 }
+
+
+/* ----------- */
+
+/* Отзывы */
+
+.comm{
+	background: #a0ced9;
+	padding-top: 25px;
+	padding-bottom: 50px;
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.comm__title{
+	padding-bottom: 15px;
+}
+
+/*------------------*/
+
 
 /* Стили заявки */
 
 
 .main-form{
 	padding-top: 25px;
+	text-align: center;
 }
 
-.main-form__email{
-	width: 600px;
+.main-form__btn{
+	color: #fff;
+	font-size: 20px;
+	background: #2673a3;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	padding-right: 300px;
+	padding-left: 300px;
+	cursor: pointer;
+}
+
+.main-form__btn a {
+	color: azure;
+}
+
+.main-form__btn:hover{
+	background: #264da3;
+	color: azure;
 }
 
 .main-form__text{
-	width: 600px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	max-width: 750px;
+	margin: auto;
 }
