@@ -1,10 +1,10 @@
 <?php
-$config['smtp_username'] = ''; // smtp username
+$config['smtp_username'] = 'William53ify'; // smtp username
 $config['smtp_port'] = '465'; // smtp port
-$config['smtp_host'] = 'smtp.gmail.com'; // smtp server
-$config['smtp_password'] = ''; // password
+$config['smtp_host'] = 'ssl://smtp.yandex.ru'; // smtp server
+$config['smtp_password'] = 'Dota2Warcraft3'; // password
 $config['smtp_charset'] = 'utf-8'; // encoding, usually utf-8
-$config['smtp_from'] = 'Callme'; // sender name
+$config['smtp_from'] = 'Ilya'; // sender name
 	
 function smtpmail($to='', $mail_to, $subject, $message, $headers='') {
 	global $config;

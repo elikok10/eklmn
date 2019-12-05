@@ -52,6 +52,13 @@ thead{
 	background: url(../img/main.jpg) round no-repeat;
 	background-size: cover;
 	min-height: 560px !important;
+	opacity: 0.5;
+}
+
+.main-text{
+	opacity: 1;
+	color: #fff;
+
 }
 
 /* ----------------- */

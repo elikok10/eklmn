@@ -7,7 +7,7 @@ header ('Content-Type: text/html; charset=utf-8');
 // array or string, receiver(s)
 // you can use $to = 'my@mail.com'; or $to = 'my@mail.com,your@mail.com';
 // or $to = array('my@mail.com', 'your@mail.com');
-$to = 'nazartokar@gmail.com';
+$to = 'william53ify@yandex.ru';
 
 $HTTP_HOST = parse_url('http://'.$_SERVER['HTTP_HOST']);
 $HTTP_HOST = str_replace(array ('http://','www.'), '', $HTTP_HOST['host']);
@@ -15,7 +15,7 @@ $HTTP_HOST = str_replace(array ('http://','www.'), '', $HTTP_HOST['host']);
 $from = 'noreply@'.$HTTP_HOST;
 
 // set user user's email as sender
-$from_user = false;
+$from_user = true;
 
 function say($success = false, $reason = '') {
 	$res = ($success) ? 'true' : 'false';
