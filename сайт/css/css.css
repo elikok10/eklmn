@@ -171,6 +171,9 @@ thead{
 	margin-right: 40px;
 	
 }
+.color{
+	color: #FFF;
+}
 
 /* ------------ */
 
@@ -178,7 +181,7 @@ thead{
 
 footer{
 	background: linear-gradient(45deg, #000, #3A424F);
-	height: 100px;
+	height: 300px;
 }
 
 /* ----------- */
