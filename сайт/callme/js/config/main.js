@@ -27,24 +27,24 @@
 		}
 	],
 	"form": {
-		"template": "default",
+		"template": "fb",
 		"title": "Оставьте заявку",
 		"button": "Отправить",
 		"align": "center",
 		"welcome": "Вы можете оставить заявку на мою почту"
 	},
 	"alerts": {
-		"yes": "Yes",
-		"no": "No",
-		"process": "Sending request...",
-		"success": "Your request was successfully sent",
+		"yes": "Да",
+		"no": "Нет",
+		"process": "Посылается запрос...",
+		"success": "Ваш запрос был отправлен успешно",
 		"fails": {
 			"required": "Заполните все поля",
 			"sent": "Предыдущее сообщение было отправлено меньше минуты назад"
 		}
 	},
 	"captcha": {
-		"show": true,
+		"show": false,
 		"title": "Captcha",
 		"error": "Captcha is wrong"
 	},
@@ -54,7 +54,7 @@
 	},
 	"mail": {
 		"referrer": "Page referrer",
-		"url": "URL",
+		"url": "http://eklmn/сайт/index.html",
 		"linkAttribute": "Link attribute",
 		"smtp": false
 	},
