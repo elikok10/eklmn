@@ -108,7 +108,7 @@
 	
 	
 	<!--Услуги-->
-<section>
+	<section>
 		<div class="container">
 			<div class="row text-center">
 				<div class="col-md-12 xsw">
@@ -319,7 +319,36 @@
 				<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste facilis, earum molestiae dignissimos et labore. Molestias molestiae aut repellendus illo aliquid fugit. Dolor itaque expedita corporis modi harum, doloremque iusto.</p>
 			</div>
 			<div class="col-md-12 main-form">
-				<a href="#" data-callme-config class="main-form__btn">Оставьте заявку</a>
+				<!-- Button trigger modal -->
+				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+					Отправить заявку
+				</button>
+				
+				<!-- Modal -->
+				<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="exampleModalLongTitle">Заполните все поля</h5>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<div class="modal-body">
+								<form action="" method="POST">
+									<p><input type="email" name="user-mail" placeholder="Введите почту" required></p>
+									<p><input type="text" name="username" placeholder="Введите имя" required></p>
+									<p><input type="tel" name="user-tel" placeholder="Введите телефон" required></p>
+									<p><textarea name="user-request" cols="30" rows="10" placeholder="Что у Вас сломалось?"></textarea></p>
+									<input type="submit" class="btn btn-primary" value="Отправить">
+								</form>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
