@@ -19,6 +19,8 @@ body{
 	margin: auto;
 }
 
+
+
 /* header */
 
 .title{
@@ -192,3 +194,12 @@ footer{
 }
 
 /* ----------- */
+
+/* Изменения некоторых классов */
+
+.title-bar{
+	background: #2673A3;
+	color: white;
+}
+
+/* -------------- */
