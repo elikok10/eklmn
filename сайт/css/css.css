@@ -11,7 +11,7 @@ a:hover{
 }
 
 body{
-	background: azure; 
+	background: #fff; 
 	font-family: 'Amatic SC', cursive;
 }
 
@@ -19,7 +19,15 @@ body{
 	margin: auto;
 }
 
+thead{
+	background: #2673a3;
+	color: #fff;
+}
 
+.bg-blue{
+    background: #2673a3;
+    color: #fff;
+}
 
 /* header */
 
@@ -42,8 +50,9 @@ body{
 	padding-left: 10px;
 	color: brown;
 }
-thead{
-	background: #2673a3;
+
+.modal-title{
+    color: #000;
 }
 
 /*------------------*/
@@ -111,7 +120,8 @@ thead{
 /* Отзывы */
 
 .comm{
-	background: #a0ced9;
+	background: #2673a3;
+	color: #fff;
 	padding-top: 25px;
 	padding-bottom: 50px;
 	text-align: center;
@@ -128,31 +138,6 @@ thead{
 
 /* Стили заявки */
 
-
-.main-form{
-	padding-top: 25px;
-	text-align: center;
-}
-
-.main-form__btn{
-	color: #fff;
-	font-size: 20px;
-	background: #2673a3;
-	padding-bottom: 10px;
-	padding-top: 10px;
-	padding-right: 300px;
-	padding-left: 300px;
-	cursor: pointer;
-}
-
-.main-form__btn a {
-	color: azure;
-}
-
-.main-form__btn:hover{
-	background: #264da3;
-	color: azure;
-}
 
 .main-form__text{
 	text-align: center;
@@ -203,3 +188,9 @@ footer{
 }
 
 /* -------------- */
+
+/* Адаптация */
+
+
+
+/* --------------- */
